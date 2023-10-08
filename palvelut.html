@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jorma Magia</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/ovd4oql.css">
+</head>
+<body>
+
+<header>
+    <img src="jorma_magialogo.png" alt="Kultainen logo jossa lukee Jorma Magia" usemap="#jormaMap" style="height: 10vw; margin-top: 1vw; margin-bottom: 1vw;">
+    <map name="jormaMap">
+    <area shape="rect" coords="0,0,10000,10000" href="index.html" alt="Go to index.html">
+    </map>
+    <nav style="margin-bottom: 2vw;">
+        <a href="tietoa.html" class="navigationBar">Tietoa</a>
+        <a href="palvelut.html" class="navigationBarSelected">Palvelut ja ajanvaraus</a>
+        <a href="blogi.html" class="navigationBar">Blogi</a>
+        <a href="yhteystiedot.html" class="navigationBar">Yhteystiedot</a>
+    </nav>
+</header>
+    <h1 style="margin-bottom: 1vw;">Varaa aika!</h1>
+    <div> 
+        <input type="radio" name="selection">
+        <label for="konsultaatio">Konsultaatio</label>
+        
+        <input type="radio" name="selection">
+        <label for="etakonsultaatio">Etäkonsultaatio</label>
+        
+        <input type="radio" name="selection">
+        <label for="puhetilaisuus">Puhetilaisuus</label>
+    </div>
+    <div class="content" style="align-items: center;">
+        
+        <label>Nimi</label>
+        <input type="text" id="name" placeholder="kirjoita nimesi tähän">
+
+        <label>Syy varaukseen</label>
+        <input type="text" id="reason" placeholder="Esim: ensiviikon lottonumerot">
+
+        <label>Varauksen Päivä</label>
+        <input type="date" id="reservation-date">
+        <button onclick="location.reload();">Lähetä</button>
+    </div>
