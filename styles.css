@@ -46,7 +46,7 @@ nav {
     display: flex;
     justify-content: center;
     list-style-type: none;
-    padding: 10px 0;
+    padding: 1vw;
     gap: 30px;
 }
 
@@ -94,7 +94,7 @@ label {
 input[type="text"],
 input[type="date"] {
     width: 100%;
-    padding: 10px;
+    padding: 1vw;
     border-radius: 20px;
     border: 1px solid #aaa;
     margin-bottom: 20px;
@@ -103,5 +103,5 @@ input[type="date"] {
 
 input[type="text"]:focus,
 input[type="date"]:focus {
-    border-color: #007BFF;
+    border-color: #ffe100;
 }
