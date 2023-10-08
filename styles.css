@@ -105,3 +105,10 @@ input[type="text"]:focus,
 input[type="date"]:focus {
     border-color: #ffe100;
 }
+
+@media (max-width: 768px) {
+    body {
+       padding-left: 15px;
+       padding-right: 15px;
+    }
+ }
