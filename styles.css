@@ -112,3 +112,10 @@ input[type="date"]:focus {
        padding-right: 15px;
     }
  }
+
+ a {
+    color: yellow;
+ }
+ a:hover {
+    color: darkyellow;
+ }
