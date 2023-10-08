@@ -73,6 +73,7 @@ nav a:hover {
     color: #ffd54a;
     font-weight: bold;
     box-shadow: 0px 0px 5px 0px #000000;
+    max-width: 95%;
 }
 
 .navigationBarSelected {
